@@ -1,0 +1,49 @@
+# --- ROM et données extraites : ne JAMAIS versionner ---
+*.gba
+*.gb
+*.gbc
+*.sav
+*.sgm
+*.ss[0-9]
+rom/*
+!rom/README.md
+extracted/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Unity (projet dans unity/) ---
+unity/[Ll]ibrary/
+unity/[Tt]emp/
+unity/[Oo]bj/
+unity/[Bb]uild/
+unity/[Bb]uilds/
+unity/[Ll]ogs/
+unity/[Uu]ser[Ss]ettings/
+unity/[Mm]emoryCaptures/
+unity/[Rr]ecordings/
+unity/.vs/
+unity/.vscode/
+unity/.idea/
+unity/*.csproj
+unity/*.unityproj
+unity/*.sln
+unity/*.suo
+unity/*.user
+unity/*.pidb
+unity/*.booproj
+unity/*.svd
+unity/*.pdb
+unity/*.mdb
+unity/*.opendb
+unity/*.VC.db
+unity/*.apk
+unity/*.aab
+unity/crashlytics-buildid.txt
+
+# --- Divers ---
+.DS_Store
+Thumbs.db
