@@ -8,7 +8,7 @@ Projet **privé et personnel**, à but d'apprentissage : rétro-ingénierie de *
 ## Organisation
 
 ```
-rom/        vos dumps .gba (ignorés par Git)
+rom/        vos dumps .gba US (référence) et FR (texte), ignorés par Git
 tools/      outils Python : identification, extraction, décompression
 extracted/  sortie des outils : JSON, PNG (ignorée par Git)
 docs/       notes de rétro-ingénierie (formats, adresses FR, sources communautaires)
